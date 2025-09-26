@@ -1,0 +1,14 @@
+[build-system]
+
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+name = "complexitylab"
+version = "0.1.0"
+description = "Time and Space complexity Analyzer"
+authors = [{name ="Monkey_D_Luffy"}]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}

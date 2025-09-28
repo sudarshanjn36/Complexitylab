@@ -8,7 +8,7 @@ CANDIDATES = {
     "O(n log n)": lambda n: n * math.log(n + 1),
     "O(n^2)": lambda n: n ** 2,
     "O(n^3)": lambda n: n ** 3,
-    "O(2^n)": lambda n: 2 ** n,
+    "O(2^n)": lambda n: 2 ** n if n< 30 else float("inf"), 
 }
 
 def fit_curves(ns, times):

@@ -148,3 +148,6 @@ Add support for exporting results (--json-out results.json).
 Generate plots of runtime curves.
 
 Include more algorithm examples and automated tests.
+
+
+## My Final aim is to build a Analyzer, by just importing this package it should be able to show output ie: time and space complexity with error rates.

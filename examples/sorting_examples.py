@@ -3,7 +3,7 @@ from complexitylab.reports import print_table, print_fit
 from complexitylab.fitting import fit_curves
 
 
-# 🔹 Stack Implementation
+# Stack Implementation
 class Stack:
     def __init__(self):
         self.items = []
@@ -25,7 +25,7 @@ class Stack:
         return len(self.items) == 0
 
 
-# 🔹 Function to test (Push all elements, then Pop all elements)
+# Function to test (Push all elements, then Pop all elements)
 def stack_ops(n):
     s = Stack()
     # Push n elements
@@ -37,7 +37,7 @@ def stack_ops(n):
     return True
 
 
-# 🔹 Input generator (just numbers up to n)
+# Input generator (just numbers up to n)
 def gen_range(n):
     return n
 
@@ -55,3 +55,4 @@ if __name__ == "__main__":
 
     best, allfits = fit_curves(ns, times)
     print_fit(best, allfits)
+# few changes that has been made in the code ("I have changed example from sorting to stack verification")
